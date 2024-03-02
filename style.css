@@ -1,0 +1,40 @@
+body {
+  font-family: sans-serif;
+}
+div {
+  height: 306px;
+  overflow-y: auto;
+}
+table, thead {
+  background-color: #ebebeb;
+}
+thead input {
+  display: block;
+  margin-bottom: 5px;
+}
+thead {
+  position: sticky;
+  top: 0;
+}
+th, td {
+  padding: 4px 4px 1px 4px;
+  vertical-align: bottom;
+}
+tbody td {
+  background-color: #fff;
+}
+th[data-sort="-1"]::after {
+  content: " ▲";
+}
+th[data-sort="1"]::after {
+  content: " ▼";
+}
+th[data-sort]::after {
+  font-size: .6em;
+  position: relative;
+  top: -2px;
+}
+th {
+  cursor: pointer;
+  user-select: none;
+}

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Minimum Viable Table</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="mvt.js"></script>
+  </head>
+  <body>
+    <h1>Minimum Viable Table</h1>
+    <div>
+      <table>
+        <thead>
+          <tr>
+            <th data-sort="-1"><input type="text">Name</th>
+            <th>Amount</th>
+            <th>Extra</th>
+            <th><input type="date">When</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Apple</td>
+            <td>9</td>
+            <td>%</td>
+            <td><time datetime="2024-01-20">1/20/24</time></td>
+          </tr>
+          <tr>
+            <td>Banana</td>
+            <td>28</td>
+            <td>:)</td>
+            <td><time datetime="2022-04-20">4/20/22</time></td>
+          </tr>
+          <tr>
+            <td>Coconut</td>
+            <td>754</td>
+            <td>ye$</td>
+            <td><time datetime="2022-03-20">3/20/22</time></td>
+          </tr>
+          <tr>
+            <td>Date</td>
+            <td>112</td>
+            <td>*</td>
+            <td><time datetime="2004-12-22">12/22/04</time></td>
+          </tr>
+          <tr>
+            <td>Eggplant</td>
+            <td>2123</td>
+            <td>12!</td>
+            <td><time datetime="2030-06-10">6/10/30</time></td>
+          </tr>
+          <tr>
+            <td>Falafel</td>
+            <td>612</td>
+            <td>^</td>
+            <td><time datetime="2023-05-05">12/21/23</time></td>
+          </tr>
+          <tr>
+            <td>Apple</td>
+            <td>9</td>
+            <td>%</td>
+            <td><time datetime="2024-01-20">1/20/24</time></td>
+          </tr>
+          <tr>
+            <td>Banana</td>
+            <td>28</td>
+            <td>:)</td>
+            <td><time datetime="2022-04-20">4/20/22</time></td>
+          </tr>
+          <tr>
+            <td>Coconut</td>
+            <td>754</td>
+            <td>ye$</td>
+            <td><time datetime="2022-03-20">3/20/22</time></td>
+          </tr>
+          <tr>
+            <td>Date</td>
+            <td>112</td>
+            <td>*</td>
+            <td><time datetime="2004-12-22">12/22/04</time></td>
+          </tr>
+          <tr>
+            <td>Eggplant</td>
+            <td>2123</td>
+            <td>12!</td>
+            <td><time datetime="2030-06-10">6/10/30</time></td>
+          </tr>
+          <tr>
+            <td>Falafel</td>
+            <td>612</td>
+            <td>^</td>
+            <td><time datetime="2023-05-05">12/21/23</time></td>
+          </tr>
+          <tr>
+            <td>Apple</td>
+            <td>9</td>
+            <td>%</td>
+            <td><time datetime="2024-01-20">1/20/24</time></td>
+          </tr>
+          <tr>
+            <td>Banana</td>
+            <td>28</td>
+            <td>:)</td>
+            <td><time datetime="2022-04-20">4/20/22</time></td>
+          </tr>
+          <tr>
+            <td>Coconut</td>
+            <td>754</td>
+            <td>ye$</td>
+            <td><time datetime="2024-03-20">3/20/24</time></td>
+          </tr>
+          <tr>
+            <td>Date</td>
+            <td>112</td>
+            <td>*</td>
+            <td><time datetime="2004-12-22">12/22/04</time></td>
+          </tr>
+          <tr>
+            <td>Eggplant</td>
+            <td>2123</td>
+            <td>12!</td>
+            <td><time datetime="2030-06-10">6/10/30</time></td>
+          </tr>
+          <tr>
+            <td>Falafel</td>
+            <td>2000</td>
+            <td>^</td>
+            <td><time datetime="2023-05-05">05/05/23</time></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <script type="text/javascript">
+      MVT(document.querySelector('table'))
+    </script>
+  </body>
+</html>
