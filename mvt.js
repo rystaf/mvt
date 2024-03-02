@@ -1,7 +1,7 @@
 const MVT = (table) => {
-  const inputs = Array.from(table.querySelectorAll('thead input'))
-  const tbody = table.querySelector('tbody')
-  const rows = Array.from(tbody.querySelectorAll('tr'))
+  const inputs = Array.from(table.querySelectorAll('thead input')),
+        tbody = table.querySelector('tbody'),
+        rows = Array.from(tbody.querySelectorAll('tr'))
   Array.from(table.querySelectorAll('th'))
     .forEach((header, i, headers) => {
       (header.querySelector('input') || {}).oninput = () => rows
