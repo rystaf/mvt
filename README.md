@@ -10,7 +10,7 @@ HTML table with sorting, filtering, and a sticky header
 ```html
 <script src="https://cdn.jsdelivr.net/gh/rystaf/mvt/mvt.js"></script>
 ```
-or just copy the dang source
+or you can copy the source!
 
 ## Usage
 
