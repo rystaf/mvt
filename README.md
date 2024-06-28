@@ -10,7 +10,7 @@ HTML table with sorting, filtering, and a sticky header
 ```html
 <script src="https://cdn.jsdelivr.net/gh/rystaf/mvt/mvt.js"></script>
 ```
-or you can copy the source!
+or you can copy [the source](https://raw.githubusercontent.com/rystaf/mvt/main/mvt.js)!
 
 ## Usage
 
@@ -18,7 +18,7 @@ or you can copy the source!
 MVT(document.querySelector('table'))
 ```
 
-> sorting dates requires values to be contained in a `time` element with valid datetime attribute
+sorting dates requires values to be contained in a `time` element with valid datetime attribute
 
 ### Sorting Indicators
 ```css
