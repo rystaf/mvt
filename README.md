@@ -44,5 +44,6 @@ Place an `input` in the `th` of the column you want to filter
 thead {
   position: sticky;
   top: 0;
+  background-color: #ddd;
 }
 ```
